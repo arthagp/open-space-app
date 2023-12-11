@@ -21,5 +21,5 @@ jobs:
           npm run ci:test
       - name: Print Debug Information
         run: |
-          echo "Working Directory: $PWD"
+          echo "Working Directory: $GITHUB_WORKSPACE"
           echo "Node Version: $(node --version)"
